@@ -59,7 +59,7 @@ download_releases(Socket,
 unpack_tar_file(Socket, ContainerIp, LocalPath) ->
     Command = "cd " ++ LocalPath ++
         " && tar xf *.tar.gz" ++
-        " && ls -la "++ LocalPath ++ "/releases,
+        " && ls -la "++ LocalPath ++ "/releases",
     os:cmd(Command),
 
     close_docker_container(Socket, ContainerIp).

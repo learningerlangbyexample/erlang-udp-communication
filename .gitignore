@@ -5,3 +5,5 @@ deps
 *.plt
 erl_crash.dump
 .vagrant
+releases
+*.tar.gz
