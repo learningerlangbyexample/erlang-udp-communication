@@ -23,7 +23,7 @@ Once everything is installed we should build the Virtual machine that will host 
 
 Now we have a virtual machine running, you can easily stop it by typing `vagrant halt` and later start again my typing `make vagrant.up` note the only reason we use make here is so we don't forget the `--provision` option.
 
-Note: Vagrant is configuring the virtual machine to have a static IP address of 192.168.1.50, if this is incompatible with your network then you should have the [Vagrantfile](https://github.com/gettingfunctionalwith/erlang-udp-communication/blob/master/Vagrantfile) and the [makefile](https://github.com/gettingfunctionalwith/erlang-udp-communication/blob/master/makefile) accordingly.
+Note: Vagrant is configuring the virtual machine to have a static IP address of 192.168.1.50, if this is incompatible with your network then you should change the [Vagrantfile](https://github.com/gettingfunctionalwith/erlang-udp-communication/blob/master/Vagrantfile) and the [makefile](https://github.com/gettingfunctionalwith/erlang-udp-communication/blob/master/makefile) accordingly.
 
 ## Docker (MacOS & Ubuntu)
 
